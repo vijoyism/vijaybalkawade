@@ -1,11 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Blog</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    /* Header Styles */
+    header {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin: 0;
+    }
+
+    /* Content Section */
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: 2rem auto;
+      background-color: #fff;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    main h2 {
+      font-size: 2rem;
+      color: #4CAF50;
+      margin-bottom: 1rem;
+    }
+
+    main p {
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Code Block Styling */
+    pre {
+      background-color: #f0f0f0;
+      padding: 1rem;
+      border-radius: 5px;
+      font-family: 'Courier New', monospace;
+      overflow-x: auto;
+    }
+
+    code {
+      color: #d63384;
+    }
+
+    /* Footer Styles */
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #333;
+      color: #fff;
+      margin-top: 2rem;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      main {
+        padding: 1rem;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
+
+      header p {
+        font-size: 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
-<h1>Hello World, this is my first web page.</h1>
+  <header>
+    <h1>Vj's Blog</h1>
+    <p>Sharing My Learnings and Insights</p>
+  </header>
+
+  <main>
+    <h2>Welcome to My Blog!</h2>
+    <p>Hello! This is a space where I document my learnings, experiences, and insights on various topics. Feel free to explore and leave comments.</p>
+    
+    <h2>Recent Learning</h2>
+    <p>Here is an example of a code snippet I recently explored:</p>
+    <pre><code>
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+console.log(greet('World'));
+    </code></pre>
+    <p>In this example, I learned how to use template literals in JavaScript to dynamically create strings.</p>
+    
+    <h2>Stay Tuned</h2>
+    <p>I'll be regularly updating this blog with new content. Thank you for reading!</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Vj's Blog | Created with ❤️ by Vijay Balkawade</p>
+  </footer>
 </body>
 </html>
